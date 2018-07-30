@@ -1,0 +1,82 @@
+p, ul, .navbar-brand, .navbar-text{
+	font-family: 'Hanalei Fill', cursive;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.carousel{
+	margin-bottom: 20px;
+}
+
+.carousel img{
+	height: 500px;
+}
+
+body{
+	background-color: #d7dcef !important;
+}
+
+.titrep{
+	border: 5px solid #292F63;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 50px;
+	color: #292F63;
+	background-color: #3F51B5;
+	text-shadow: 1px 1px 5px white;
+	margin: 10px 10px;
+}
+
+.imgproduit{
+	width: 520px;
+}
+
+.tardisfonction{
+	width: 520px;
+	margin: 100px 15px;
+}
+
+.imgfonction{
+	
+}
+
+.text{
+	margin: 20px;
+	vertical-align: middle;
+	font-size: 18px;
+}
+
+.textone{
+	height: 360px;
+	margin: auto;
+}
+
+.liste{
+	width: 800px;
+	margin: 20px auto;
+	line-height: 30px;
+}
+
+footer{
+	background-color: #3F51B5;
+}
+
+
+i{
+	font-size: 70px;
+	margin-right: 20px;
+	transition-duration: 0.5s;
+	margin-bottom: 20px;
+}
+
+i:hover{
+	font-size: 75px;
+}
+
+.form-control{
+	color: #10227c !important;
+}
