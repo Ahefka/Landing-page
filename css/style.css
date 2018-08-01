@@ -1,4 +1,4 @@
-p, ul, .navbar-brand, .navbar-text, .text-center a{
+p, ul, .navbar-brand, .navbar-text, .text-center a, .newsletter{
 	font-family: 'Hanalei Fill', cursive;
 }
 
@@ -6,10 +6,11 @@ html{
 	height: 100%;
 	width: 100%;
 	margin: 0;
+	scroll-behavior: smooth;
 }
 
 .carousel{
-	margin-bottom: 20px;
+	margin: 5px 10px 20px 10px;
 }
 
 .carousel img{
@@ -77,10 +78,47 @@ i{
 	margin-bottom: 20px;
 }
 
-i:hover{
-	font-size: 75px;
-}
+
 
 .form-control{
 	color: #10227c !important;
+}
+
+.subscribe1{
+	text-align: right;
+	margin-right: 0px;
+}
+
+.subscribe1 input{
+	width: 300px;
+}
+
+.subscribe2{
+	height: 27px;
+	text-align: left;
+	margin-left: 0px;
+}
+
+.subscribe input{
+	width: 100%;
+}
+
+.h1-responsive{
+	text-shadow: 1px 1px 5px black;
+	animation: skew 3s infinite;
+}
+
+@keyframes skew{
+	from{
+		-webkit-transform: skew(15deg);
+ 		transform: skew(15deg);
+	}
+	50%{
+		-webkit-transform: skew(-15deg);
+ 		transform: skew(-15deg);
+	}
+	to{
+		-webkit-transform: skew(15deg);
+ 		transform: skew(15deg);
+	}
 }
